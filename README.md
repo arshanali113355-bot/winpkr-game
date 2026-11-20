@@ -1,21 +1,18 @@
 # WinPKR Game
 
-A responsive, single-page promotional website for WinPKR Game.
+Original purple-and-gold, mobile-first promotional landing page.
 
-## Preview locally
+## Preview
 
-Open `index.html` in a browser, or serve the folder with:
+Open `index.html` in a browser or run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+## Before launch
 
-## Before publishing
-
-- Replace any placeholder content with verified official information.
-- Add the official app download URL to `#download-button` in `index.html`.
-- Add an original logo and screenshots.
-- Add verified terms and privacy pages or legal sections.
-- Do not include unverified earning claims or guaranteed-income promises.
+- Replace the reference download URL with the verified official APK URL.
+- Replace icon-style placeholders with licensed branding and screenshots.
+- Keep the responsible-gaming notice and 18+ restriction.
+- Do not use unsupported earning or guarantee claims.
