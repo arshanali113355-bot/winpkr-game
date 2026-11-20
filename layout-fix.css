@@ -1,0 +1,87 @@
+/* WINPKR landing page — layout overrides */
+.hero-grid {
+  grid-template-columns: minmax(0, 1.12fr) minmax(290px, .88fr);
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 3;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.mini-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(72px, 92px));
+  align-items: start;
+  gap: 18px;
+  width: max-content;
+}
+
+.mini-stats div {
+  min-height: 48px;
+}
+
+.device-stage {
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  overflow: visible;
+}
+
+.phone {
+  margin: 0 auto;
+  transform: none;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    min-height: 1120px;
+  }
+
+  .hero-grid {
+    min-height: 1120px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .hero-copy {
+    align-items: center;
+  }
+
+  .hero-actions {
+    width: 100%;
+  }
+
+  .mini-stats {
+    grid-template-columns: repeat(3, minmax(70px, 1fr));
+    width: 260px;
+  }
+
+  .device-stage {
+    height: 500px;
+  }
+
+  .phone {
+    transform: scale(.88);
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    min-height: 1080px;
+  }
+
+  .hero-grid {
+    min-height: 1080px;
+  }
+
+  .phone {
+    transform: scale(.82);
+  }
+}
